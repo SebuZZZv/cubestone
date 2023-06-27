@@ -317,7 +317,6 @@ footer{
     text-align: center;
     
         p{
-            cursor: pointer;
             text-decoration: none;
             color: gray;
         }
@@ -477,8 +476,8 @@ a:visited {
         bottom: -16vh;
         left: 0;
         width: 97%;
-        height: 22%;
-        font-size: 8px;
+        height: 26%;
+        font-size: 9px;
         
     }
     .exit-button{
@@ -487,7 +486,7 @@ a:visited {
         margin-top: 0 !important;
     }
     .fa-xmark{
-        font-size: 18px;
+        font-size: 22px;
     }
 }
 
