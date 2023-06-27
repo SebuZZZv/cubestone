@@ -269,6 +269,7 @@ footer .footer-rglm .rgl {
   background-color: #292828;
   padding: 6px;
   font-size: 12px;
+  display: none;
 }
 .box-of-regu .exit-button {
   color: white;
@@ -310,7 +311,7 @@ a:visited {
     margin-top: -10vh !important;
   }
   .logo-img {
-    margin-left: 5px;
+    margin-left: -15px;
     width: 200px !important;
   }
   .second {
@@ -401,6 +402,8 @@ a:visited {
   .box-of-regu {
     position: absolute !important;
     bottom: -10%;
+    left: 0;
+    width: 96%;
   }
 }
 
