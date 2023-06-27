@@ -404,13 +404,16 @@ a:visited {
     bottom: -16vh;
     left: 0;
     width: 97%;
-    height: 26%;
+    height: 27%;
     font-size: 9px;
+  }
+  .regu-text {
+    margin-top: 20px;
   }
   .exit-button {
     font-size: 10px !important;
     margin-left: 0 !important;
-    margin-top: 0 !important;
+    margin-top: 30px !important;
   }
   .fa-xmark {
     font-size: 22px;

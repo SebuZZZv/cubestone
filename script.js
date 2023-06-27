@@ -23,7 +23,7 @@ exit.addEventListener("click", () => {
 
   function callback(entries) {
     if (entries[0].isIntersecting) {
-      window.scrollTo({top: Number(6200 - window.innerHeight), left: 0, behavior: 'smooth'});
+      window.scrollTo({top: Number(6000 - window.innerHeight), left: 0, behavior: 'smooth'});
     }
   }
     const observer = new IntersectionObserver(callback);
