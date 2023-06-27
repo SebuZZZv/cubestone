@@ -266,11 +266,9 @@ footer .footer-rglm .rgl {
   bottom: 0;
   left: 25%;
   width: 50%;
-  height: 47%;
   background-color: #292828;
   padding: 6px;
   font-size: 12px;
-  display: none;
 }
 .box-of-regu .exit-button {
   color: white;
@@ -373,7 +371,7 @@ a:visited {
     margin-top: 2px !important;
   }
   .dsc {
-    width: 400px;
+    width: 370px;
   }
   .mid-section {
     float: left;
@@ -389,7 +387,7 @@ a:visited {
     float: left;
   }
   .pers-in-squad {
-    width: 430px !important;
+    width: 390px !important;
   }
   .pers-box {
     width: 100% !important;
@@ -399,6 +397,10 @@ a:visited {
   }
   footer {
     margin-top: -30vh !important;
+  }
+  .box-of-regu {
+    position: absolute !important;
+    bottom: -10%;
   }
 }
 
