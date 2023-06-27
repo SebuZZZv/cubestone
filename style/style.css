@@ -1,0 +1,405 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  position: relative;
+}
+
+#f-section {
+  width: 100%;
+  height: 960px;
+  position: relative;
+}
+#f-section .f-foto {
+  width: 100%;
+  position: relative;
+}
+#f-section .f-foto .nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+#f-section .f-foto .nav .fa-book {
+  font-size: 38px;
+  color: #6e3a06;
+}
+#f-section .f-foto img {
+  height: 580px;
+  width: 100%;
+  object-fit: fill;
+}
+#f-section .f-foto .box {
+  position: absolute;
+  left: 30%;
+  top: 5%;
+  width: 40%;
+  height: 400px;
+  font-size: 50px;
+}
+#f-section .f-foto .box .first {
+  width: 100%;
+  height: 50%;
+}
+#f-section .f-foto .box .first .logo {
+  text-align: center;
+}
+#f-section .f-foto .box .first .logo img {
+  width: 212px;
+  height: 212px;
+}
+#f-section .f-foto .box .second {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  color: black;
+}
+#f-section .f-foto .box .second p {
+  font-size: 24px;
+  color: white;
+}
+#f-section .rectangle {
+  position: absolute;
+  top: 54%;
+  left: 20%;
+  width: 60%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#f-section .rectangle .boxses {
+  width: 115px;
+  height: 100%;
+}
+#f-section .rectangle .boxses .icon {
+  height: 40%;
+}
+#f-section .rectangle .boxses .icon .img-icon {
+  height: 95%;
+  background-color: rgb(226, 225, 225);
+  margin: 0 auto;
+  border-radius: 100px;
+}
+#f-section .rectangle .boxses .icon .img-icon .fa-earth-americas {
+  font-size: 92px;
+  margin-left: 11px;
+  margin-top: 10px;
+}
+#f-section .rectangle .boxses .icon .img-icon .fa-people-group {
+  font-size: 76px;
+  margin-left: 10px;
+  margin-top: 16px;
+}
+#f-section .rectangle .boxses .icon .img-icon .fa-code-compare {
+  font-size: 76px;
+  margin-left: 18px;
+  margin-top: 16px;
+}
+#f-section .rectangle .boxses .description {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  margin-top: -15px;
+  color: black;
+  font-size: 22px;
+}
+#f-section .rectangle .boxses .description p {
+  font-weight: bold;
+  font-size: 24px;
+}
+#f-section .rectangle .boxses .description .f-dsc {
+  color: gray;
+}
+#f-section .rectangle .boxses .description .op1 {
+  margin-top: -20px;
+}
+#f-section .rectangle .boxses .description .op2 {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+#f-section .rectangle .boxses .description .op2 #green {
+  border-radius: 50%;
+  margin-top: 4px;
+  margin-left: -35px;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  transform: scale(1);
+  float: left;
+}
+#f-section .rectangle .boxses .description .op2 .bloop {
+  animation: pulse-green 2s infinite;
+  background-color: green;
+}
+#f-section .rectangle .boxses .description .op3 {
+  margin-top: -20px;
+}
+@keyframes pulse-green {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgb(117, 197, 157);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px transparent;
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+#s-section {
+  width: 100%;
+}
+#s-section .about-serwer {
+  width: 50%;
+  height: 30%;
+  margin: 0 auto;
+}
+#s-section .about-serwer .a-box {
+  max-width: 49%;
+  display: inline-block;
+  margin-left: 5px;
+}
+#s-section .about-serwer .a-box img {
+  width: 95%;
+  height: 100%;
+  margin-left: 30px;
+  margin-bottom: -10px;
+  box-shadow: 0px 0px 30px gray;
+}
+#s-section .about-serwer .a-box .dsc {
+  margin-left: 2px;
+}
+#s-section .about-serwer .a-box .dsc span {
+  font-weight: bolder;
+  font-size: 32px;
+  margin-left: 15px;
+}
+#s-section .about-serwer .a-box .dsc .discord-span {
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0;
+  color: rgb(63, 63, 218);
+}
+#s-section .about-serwer .a-box .dsc p {
+  margin-left: 25px;
+  color: gray;
+}
+#s-section #squad {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+#s-section #squad .name-sec {
+  width: 100%;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+#s-section #squad .name-sec span {
+  font-weight: bolder;
+  font-size: 32px;
+  margin-left: 15px;
+}
+#s-section #squad .name-sec p {
+  margin: 0;
+  margin-left: 20px;
+  color: gray;
+}
+#s-section #squad .pers-in-squad {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+#s-section #squad .pers-in-squad .pers-box {
+  width: 300px;
+  height: 100px;
+  border: 1px solid rgb(223, 221, 221);
+  margin-bottom: 15px;
+  margin-left: 11px;
+  border-radius: 8px;
+}
+#s-section #squad .pers-in-squad .pers-box .head-person {
+  margin-top: 15px;
+  margin-left: 15px;
+  float: left;
+}
+#s-section #squad .pers-in-squad .pers-box .head-person img {
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+}
+#s-section #squad .pers-in-squad .pers-box .pers-desc {
+  float: left;
+  margin-top: 18px;
+  margin-left: 15px;
+}
+#s-section #squad .pers-in-squad .pers-box .pers-desc span {
+  font-weight: bolder;
+}
+#s-section #squad .pers-in-squad .pers-box .pers-desc p {
+  color: gray;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+}
+footer .footer-rglm {
+  width: 50%;
+  height: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+footer .footer-rglm p {
+  cursor: pointer;
+  text-decoration: none;
+  color: gray;
+}
+footer .footer-rglm .rgl {
+  font-weight: bold;
+}
+
+.box-of-regu {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 47%;
+  background-color: #292828;
+  padding: 6px;
+  font-size: 12px;
+  display: none;
+}
+.box-of-regu .exit-button {
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.box-of-regu p {
+  color: white;
+}
+.box-of-regu span {
+  color: white;
+  font-weight: bold;
+}
+.box-of-regu .copyright {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(63, 63, 218);
+}
+
+@media screen and (max-width: 764px) {
+  #s-section {
+    height: 2200px !important;
+  }
+  .mid-section {
+    width: 100%;
+  }
+  .about-serwer {
+    height: 30% !important;
+    width: 100% !important;
+    float: left;
+    margin-top: -10vh !important;
+  }
+  .logo-img {
+    margin-left: 5px;
+    width: 200px !important;
+  }
+  .second {
+    font-size: 26px;
+  }
+  .text-in-scd {
+    font-size: 20px !important;
+  }
+  .rectangle {
+    margin-left: -10px;
+    margin-top: 20px;
+  }
+  .img-icon {
+    height: 80px !important;
+    width: 80px;
+    margin-left: 30px !important;
+  }
+  .fa-solid {
+    font-size: 46px;
+  }
+  .fa-earth-americas {
+    font-size: 58px !important;
+    margin-left: 10px !important;
+  }
+  .fa-people-group {
+    font-size: 50px !important;
+    margin-top: 13px !important;
+  }
+  .fa-code-compare {
+    font-size: 48px !important;
+    margin-left: 16px !important;
+    margin-top: 13px !important;
+  }
+  .description {
+    font-size: 10px !important;
+    margin-top: -50px !important;
+  }
+  .font-size-text {
+    font-size: 17px !important;
+    margin-left: 25px;
+  }
+  .op1 {
+    margin-left: 25px;
+    margin-top: -10px !important;
+  }
+  .op2 {
+    margin-left: 40px !important;
+    margin-top: -10px !important;
+  }
+  .op3 {
+    margin-left: 25px;
+    margin-top: -10px !important;
+  }
+  #green {
+    width: 10px !important;
+    height: 10px !important;
+    margin-left: -15px !important;
+    margin-top: 2px !important;
+  }
+  .dsc {
+    width: 400px;
+  }
+  .mid-section {
+    float: left;
+  }
+  .img-in-abox {
+    width: 350px !important;
+    margin-top: 20px;
+  }
+  .a-box {
+    max-width: 500px;
+  }
+  #squad {
+    float: left;
+  }
+  .pers-in-squad {
+    width: 430px !important;
+  }
+  .pers-box {
+    width: 100% !important;
+  }
+  .name-sec {
+    margin: 0 !important;
+  }
+  footer {
+    margin-top: -30vh !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
