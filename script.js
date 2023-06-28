@@ -6,8 +6,10 @@ const exit = document.querySelector(".exit-button")
 button_regu.addEventListener("click", () => {
     if(regu.style.display === "none"){
         regu.style.display = "none";
+        
     }else{
         regu.style.display = "block";
+        regu.scrollIntoView()
         regu.style.visibility = "visible";
         document.body.style.overflow = "hidden";
     }
@@ -21,10 +23,17 @@ exit.addEventListener("click", () => {
      }
   });
 
-  function callback(entries) {
-    if (entries[0].isIntersecting) {
-      window.scrollTo({top: Number(7000 - window.innerHeight), left: 0, behavior: 'smooth'});
-    }
-  }
-    const observer = new IntersectionObserver(callback);
-    observer.observe(document.querySelector('.box-of-regu'));
+  //function callback(entries) {
+    //if (entries[0].isIntersecting) {
+      //window.scrollTo({top: Number(100000 - window.innerHeight), left: 0, behavior: 'smooth'});
+    //}
+  //}
+    //const observer = new IntersectionObserver(callback);
+    //observer.observe(document.querySelector('.box-of-regu'));
+
+  
+// bind "click" event to a button 
+//button_regu.addEventListener('click', function(){
+  //regu.scrollIntoView()
+//})
+  

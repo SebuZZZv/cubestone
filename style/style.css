@@ -23,7 +23,7 @@ body {
   font-size: 38px;
   color: #6e3a06;
 }
-#f-section .f-foto img {
+#f-section .f-foto .Background-img {
   height: 580px;
   width: 100%;
   object-fit: fill;
@@ -31,7 +31,7 @@ body {
 #f-section .f-foto .box {
   position: absolute;
   left: 30%;
-  top: 5%;
+  top: 15%;
   width: 40%;
   height: 400px;
   font-size: 50px;
@@ -297,8 +297,17 @@ a:visited {
 }
 
 @media screen and (max-width: 764px) {
+  #f-section {
+    height: 660px !important;
+  }
   #s-section {
-    height: 2200px !important;
+    height: 1950px !important;
+  }
+  .Background-img {
+    height: 400px !important;
+  }
+  .box {
+    height: 80% !important;
   }
   .mid-section {
     width: 100%;
@@ -310,18 +319,20 @@ a:visited {
     margin-top: -10vh !important;
   }
   .logo-img {
-    margin-left: -15px;
-    width: 200px !important;
+    margin-left: 10px;
+    width: 120px !important;
+    height: 120px !important;
   }
   .second {
     font-size: 26px;
+    margin-top: -30px;
   }
   .text-in-scd {
     font-size: 20px !important;
   }
   .rectangle {
     margin-left: -10px;
-    margin-top: 20px;
+    margin-top: vh;
   }
   .img-icon {
     height: 80px !important;
@@ -385,6 +396,7 @@ a:visited {
     max-width: 500px;
   }
   #squad {
+    margin-top: 15vh !important;
     float: left;
   }
   .pers-in-squad {
@@ -401,21 +413,21 @@ a:visited {
   }
   .box-of-regu {
     position: absolute !important;
-    bottom: -14vh;
+    bottom: -16vh;
     left: 0;
     width: 97%;
+    height: 33%;
     font-size: 9px;
   }
   .regu-text {
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .exit-button {
     font-size: 10px !important;
     margin-left: 0 !important;
-    margin-top: 30px !important;
   }
   .fa-xmark {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 
